@@ -1,4 +1,4 @@
-def isPalindrome(self, x: int) -> bool:
+def isPalindrome(x: int) -> bool:
     text = str(x)
     rev_text = ""
     l_t = len(text)
