@@ -5,5 +5,7 @@ def reverse(x: int) -> int:
     else:
         x *= -1
         s = str(x)
-        return -1 * int(s[-1::-1]) if (-1 * int(s[-1::-1])) >= -2147483648 else 0
-
+        if (-1 * int(s[-1::-1])) >= -2147483648:
+            return -1 * int(s[-1::-1])
+        else:
+            return 0
