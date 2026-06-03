@@ -8,7 +8,7 @@ class TreeNode:
         self.right = right
 
 
-def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+def isSameTree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     stack = [(p, q)]
     while stack:
         p1, q1 = stack.pop()
