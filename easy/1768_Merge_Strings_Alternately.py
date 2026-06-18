@@ -8,4 +8,4 @@ def mergeAlternately(word1: str, word2: str) -> str:
         result += word2[i + 1::]
     else:
         result += word1[i + 1::]
-    return result 
+    return result
