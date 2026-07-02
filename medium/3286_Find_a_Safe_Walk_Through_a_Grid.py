@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def findSafeWalk(grid: list[list[int]], health: int) -> bool:
     if grid[0][0] and health <= 0:
         return False
