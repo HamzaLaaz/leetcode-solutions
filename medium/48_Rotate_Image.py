@@ -1,7 +1,7 @@
 import copy
 
 
-def rotate(self, matrix: list[list[int]]) -> None:
+def rotate(matrix: list[list[int]]) -> None:
     """
     Do not return anything, modify matrix in-place instead.
     """
